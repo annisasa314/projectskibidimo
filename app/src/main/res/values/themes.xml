@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Nutrisnap2" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryVariant">@color/green</item>
+        <item name="colorOnPrimary">@color/green</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+    <style name="Theme.Nutrisnap2" parent="Base.Theme.Nutrisnap2" />
+
+    <style name="SplashApi" parent="Theme.SplashScreen">
+        <item name="android:windowSplashScreenBackground">@color/green</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/snapsnap</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.Nutrisnap2</item>
+    </style>
+
+</resources>

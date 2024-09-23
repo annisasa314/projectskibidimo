@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">nutrisnap2</string>
     <string name="outlinetext">MULAI</string>
+    <string name="filled_button">MULAI</string>
 </resources>
